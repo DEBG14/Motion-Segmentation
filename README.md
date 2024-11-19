@@ -20,7 +20,7 @@ The original video and corresponding Foreground and Background videos are upload
 The car backing up and the two people taking a stroll are part of the foreground, while the rest of the objects, being stationary, are classified as a part of the background. It can also be noted that when a foreground object becomes stationary for a bit, (like the car does), the parameters are quickly updated for it to be classified as background for those frames. This is an indication of the system's real-time ability to deal robustly with changes in the scenario.
 
 
-#Reference:
+# Reference:
 This project was based on the following papers:
 
 * [Adaptive background mixture models for real-time tracking- Chris Stauffer and W.E.L Grimson 1999](http://www.ai.mit.edu/projects/vsam/Publications/stauffer_cvpr98_track.pdf)
