@@ -1,7 +1,7 @@
 from BG_SUB import SG_model
 import cv2
 
-GMM=SG_model(0.008,0.5,3)
+GMM=SG_model(0.008,0.7,3)
 print("start")
 GMM.parameter_init()
 print("initialization complete")
