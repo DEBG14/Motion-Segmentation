@@ -1,5 +1,5 @@
-# Stauffer - Grimson Background Subtraction
-This project aimed to devise a visual monitoring system that passively observes moving objects in a site and learns patterns of activity from those observations. It provides real-time segmentation of moving regions in a video, separating the foreground and the background.
+# Motion Segmentation using adaptive mixture models
+This repository contains code for the project Motion segmentation which is a part of the Machine learning course (ELL 784) at IIT D, taught by  [Sumantra Dutta Roy](sumantra@ee.iitd.ac.in). The aim is to devise a visual monitoring system that passively observes moving objects in a site and learns patterns of activity from those observations. It provides real-time segmentation of moving regions in a video, separating the foreground and the background.
 
 # Methodology:
 The motion segmentation is achieved by modeling each pixel of the frame as a mixture of Gaussians which is updated in real-time as the frames go by. Based on the persistence and the variance of each of the Gaussians of the mixture, the model determines which Gaussians may correspond to the background.
