@@ -15,7 +15,7 @@ os.makedirs(foreground_path, exist_ok=True)
 os.makedirs(background_path, exist_ok=True)
 
 # Initialize GMM and video capture
-GMM = SG_model(0.008, 0.7, 3)
+GMM = SG_model(0.008, 0.5, 3)
 print("Start")
 GMM.parameter_init()
 print("Initialization complete")
