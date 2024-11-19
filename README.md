@@ -19,6 +19,21 @@ The original video and corresponding Foreground and Background videos are upload
 ![SGBS](https://github.com/user-attachments/assets/94c2d149-f9ab-4933-87b2-1736e54c1481)
 The car backing up and the two people taking a stroll are part of the foreground, while the rest of the objects, being stationary, are classified as a part of the background. It can also be noted that when a foreground object becomes stationary for a bit, (like the car does), the parameters are quickly updated for it to be classified as background for those frames. This is an indication of the system's real-time ability to deal robustly with changes in the scenario.
 
+## Usage
+
+Follow the steps below to clone the repository, install dependencies, configure the `.env` file, and run the `Run.py` script.
+
+---
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+pip install -r requirements.txt
+Edit the .env file to update the file paths
+python Run.py
+
+
 
 # Reference:
 This project was based on the following papers:
@@ -26,4 +41,5 @@ This project was based on the following papers:
 * [Adaptive background mixture models for real-time tracking- Chris Stauffer and W.E.L Grimson 1999](http://www.ai.mit.edu/projects/vsam/Publications/stauffer_cvpr98_track.pdf)
 
 * [Learning Patterns of Activity Using Real-Time Tracking- Chris Stauffer and W. Eric L. Grimson 2000](https://people.csail.mit.edu/welg/papers/learning2000.pdf)
+
 
