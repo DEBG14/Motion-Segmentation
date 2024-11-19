@@ -23,5 +23,6 @@ The car backing up and the two people taking a stroll are part of the foreground
 #Reference:
 This project was based on the following papers:
 
-* Adaptive background mixture models for real-time tracking- Chris Stauffer and W.E.L Grimson 1999
+* [Adaptive background mixture models for real-time tracking- Chris Stauffer and W.E.L Grimson 1999](http://www.ai.mit.edu/projects/vsam/Publications/stauffer_cvpr98_track.pdf)
+
 * Learning Patterns of Activity Using Real-Time Tracking- Chris Stauffer and W. Eric L. Grimson 2000
