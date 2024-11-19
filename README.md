@@ -25,13 +25,13 @@ Follow the steps below to clone the repository, install dependencies, configure 
 
 ---
 
-### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
 Edit the .env file to update the file paths
 python Run.py
+```
 
 
 
