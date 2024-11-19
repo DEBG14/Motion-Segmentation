@@ -4,7 +4,7 @@ import math
 
 
 class SG_model:
-    def __init__(self, alpha, T, K):
+    def __init__(self, alpha, T, K):   # alpha - learning rate, T - Background threshold , K - Number of Gaussians
         self.alpha = alpha
         self.T = T
         self.K = K
