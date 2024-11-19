@@ -16,3 +16,12 @@ The backgrounding method required the following significant parameters which nee
 
 # Output snapshot:
 The original video and corresponding Foreground and Background videos are uploaded in the Videos folder. As an illustration, the image below shows the output for a particular frame:
+![SGBS](https://github.com/user-attachments/assets/94c2d149-f9ab-4933-87b2-1736e54c1481)
+The car backing up and the two people taking a stroll are part of the foreground, while the rest of the objects, being stationary, are classified as a part of the background. It can also be noted that when a foreground object becomes stationary for a bit, (like the car does), the parameters are quickly updated for it to be classified as background for those frames. This is an indication of the system's real-time ability to deal robustly with changes in the scenario.
+
+
+#Reference:
+This project was based on the following papers:
+
+* Adaptive background mixture models for real-time tracking- Chris Stauffer and W.E.L Grimson 1999
+* Learning Patterns of Activity Using Real-Time Tracking- Chris Stauffer and W. Eric L. Grimson 2000
